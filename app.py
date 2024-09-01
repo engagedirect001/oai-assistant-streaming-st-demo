@@ -18,7 +18,7 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
 # Title
-st.title("Demo: OpenAI Assistants API Streaming")
+st.title("KwanzooGPT - Account Insights")
 
 # Display messages in chat history
 for message in st.session_state.chat_history:
