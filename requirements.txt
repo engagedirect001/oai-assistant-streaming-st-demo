@@ -131,7 +131,6 @@ soupsieve==2.5
 stack-data==0.6.3
 streamlit==1.33.0
 sympy==1.12
-tavily
 tenacity==8.2.3
 terminado==0.18.1
 threadpoolctl==3.4.0
@@ -154,3 +153,4 @@ wcwidth==0.2.13
 webcolors==1.13
 webencodings==0.5.1
 websocket-client==1.7.0
+tavily
