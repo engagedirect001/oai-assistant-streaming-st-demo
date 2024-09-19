@@ -28,7 +28,7 @@ if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
 # Title
-st.title("Budgets AI  - B2B Research and EMAIL Assistant")
+st.title("Sales Team - Co Pilot")
 
 # Display messages in chat history
 for message in st.session_state.chat_history:
