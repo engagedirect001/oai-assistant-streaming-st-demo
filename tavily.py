@@ -5,7 +5,7 @@ import os
 from typing import Literal, Sequence, Optional
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from utils import get_max_items_from_list
-from .errors import UsageLimitExceededError, InvalidAPIKeyError, MissingAPIKeyError
+from errors import UsageLimitExceededError, InvalidAPIKeyError, MissingAPIKeyError
 
 class TavilyClient:
     """
